@@ -1,0 +1,15 @@
+Em programação orientada a objetos (OO), uma classe é um modelo para criar objetos. Um objeto é 
+uma instância específica de uma classe, e as classes são utilizadas para definir o comportamento 
+e as propriedades compartilhadas por um grupo de objetos relacionados.
+
+
+**Para alterar todas as ocorrências de um atributo ao mesmo tempo, podemos selecionar um deles e apertar "F2"**
+
+Boa Prática - todos os atributos com _ pro property
+
+Isso aí! O método __init__ é conhecido como o construtor da classe em Python. Ele é automaticamente chamado quando uma nova instância da classe é criada e serve para realizar as inicializações necessárias nos atributos da instância. O nome __init__ é uma abreviação de initialize (inicializar), e sua principal função é garantir que os atributos da instância tenham valores iniciais apropriados.
+
+O método incrementar modifica o valor do contador (self.valor) associado à instância sempre que é chamado. O método str retorna uma string que contém uma representação legível da instância, incluindo o valor atual do contador.
+
+
+

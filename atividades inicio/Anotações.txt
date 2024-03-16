@@ -1,0 +1,47 @@
+maneira legal de interpolar string:
+
+print(f"Ola{string}") 
+
+Só por o f antes das aspas e por entre chaves a string desejada.
+Ctrl + l limpa o terminal
+Ctrl + ] da um tab em tudo selecionado
+Ctrl + x = consegue mudar um bloco de lugar 
+
+Match
+    A principal finalidade da instrução match é simplificar a lógica de código ao facilitar o trabalho
+    com diferentes padrões de dados. Isso pode tornar o código mais legível e conciso em situações onde
+    uma cadeia de if elif else pode se tornar complicada e difícil de manter.
+    Ex:
+    opcao_escolhida = int(input('Escolha uma opção: '))
+match opcao_escolhida:
+    case 1:
+        print('Adicionar restaurante')
+    case 2:
+        print('Listar restaurantes')
+    case 3:
+        print('Ativar restaurante')
+    case 4:
+        print('Finalizar app')
+    case _:
+        print('Opção inválida!')
+
+Qual instrução devo usar?
+O if nos proporciona uma maneira eficaz de tomar decisões simples ou complexas em nosso código, adaptando o comportamento do programa de acordo com as circunstâncias determinadas. Ao usar match, podemos simplificar a lógica do código em situações que envolvem múltiplos padrões complexos. Ela oferece uma estrutura mais legível, especialmente quando temos diversos casos a serem tratados.
+
+O try e o except são utilizados no programa para que o programa tente aquele bloco de codigo e caso falhe, o except mostra oq eu desejo, no caso opcao_invalida.
+Para criar uma lista é so por o [].
+É usado a palavra append para adicionar o nome na lista.
+
+Para criar uma docstring em Python, normalmente ela fica na primeira linha logo após a definição da função e você pode usar três aspas.
+se der ctrl + f, por a palavra que vc quer achar, apertar na setinha e por outra palavra embaixo, ele substitui.
+
+**restaurante.py**
+dir retorna uma lista de nomes no espaço de nomes especificado, mostra metodos que podemos usar. 
+print(dir(restaurante_praca))
+se usar o vars, veremos um dicionario desses atributos e metodos
+print(vars(restaurante_pizza))
+
+**avaliacao.py**
+para manter as boas práticas de programação, vamos colocar um underline no cliente e na nota. 
+Realizamos essa abordagem porque buscamos limitar a manipulação desses dados, especialmente por
+outras entidades de classes ou arquivos. Almejamos advertir sobre a sensibilidade dessas informações ao serem manipuladas.
