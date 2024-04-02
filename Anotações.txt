@@ -45,3 +45,14 @@ print(vars(restaurante_pizza))
 para manter as boas práticas de programação, vamos colocar um underline no cliente e na nota. 
 Realizamos essa abordagem porque buscamos limitar a manipulação desses dados, especialmente por
 outras entidades de classes ou arquivos. Almejamos advertir sobre a sensibilidade dessas informações ao serem manipuladas.
+
+**restaurante.py**
+# Existe uma função no Python chamada isinstance(), que verifica se o item que estamos adicionando é uma instância de itemCardapio
+# Essa função isinstance() será verdadeira se o item que passamos como argumento for uma instância da classe itemCardapio ou se for uma classe derivada de itemCardapio.
+# Agora, não importa se estamos falando de uma sobremesa, lasanha, pizza, não importa o tipo do item. Se é um derivado da classe, podemos adicioná-lo à lista. Não precisamos de vários métodos diferentes para adicionar os itens ao cardápio.
+if isinstance(item, ItemCardapio):
+
+ Na linha 53 usamos o hasattr() que significa 'se tiver atributo'. Por exemplo: La usamos o hasattr e colocamos entre parenteses (item, 'descrição)
+ Se tiver os atributos, vai dar certo.
+
+ (Alt+z me possibilita dar uma quebra de linha)
