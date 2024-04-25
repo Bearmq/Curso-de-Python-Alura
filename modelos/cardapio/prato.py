@@ -10,4 +10,4 @@ class Prato(ItemCardapio):
         return self._nome
     def aplicar_desconto(self):
         #                abreviação -=
-        self._preco =  self._preco - (self._preco * 0.08)
+        self._preco = self._preco - (self._preco * 0.08)
