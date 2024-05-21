@@ -64,3 +64,8 @@ Nosso código vai parar se não tiver a aplicação desse desconto. E para essa 
 
  polimorfismo*
  Essa forma de pegar um método e dizer que ele deve se moldar de forma diferente em diferentes classes é o que chamamos na programação de polimorfismo. O mesmo método se adapta para uma classe específica e tem um comportamento diferente através desse método abstrato que criamos na nossa classe principal.
+
+ ctrl+z faz uma quebra de linha e podemos continuar embaixo.
+
+ No requests existe uma função chamada get(). Portanto, a variável response vai receber requests.get(). Dentro dos parênteses, vamos colocar a url. O GET é um verbo do HTTP onde solicitamos um recurso. 
+ Response [200] quer dizer que deu certo
